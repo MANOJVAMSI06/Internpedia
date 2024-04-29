@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="LoginPage.css">
+    <script>
+        function logg(event) {
+            event.preventDefault();    
+            var a = document.getElementById("username");
+            var b = document.getElementById("password");
+            if (a.value !== '' && b.value !== '') {
+                window.location.href = "link.html";
+            } else {
+                alert("Enter username and password");
+            }
+        }
+    </script>   
+   
+</head>
+<body>
+    <div class="container">
+         <h1>Login</h1>
+        <form action="link.html" method="get">
+            <div class="input-box">
+                <h5>Username</h4>
+                <input type="text" name="username" id="username" required placeholder="Enter Username">
+                <h5>Password</h5>
+                <input type="password" name="password" id="password" required placeholder="Enter Password">
+            </div>
+            <button type="submit"class="btn" onclick="logg(event)" value="submit">Login</button>
+            <a href="#" class="hh">Forgot password?</a>
+        </form>
+        <div class="social">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Login with Facebook</a>
+            <a href="#" class="google"><i class="fab fa-google"></i> Login with Google</a>
+        </div>
+        <span>Or Sign Up Using</span>
+        <a href="#" class="signup">Sign Up</a>
+    </div>
+
+</body>
+</html>

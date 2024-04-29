@@ -1,0 +1,136 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url('https://wallpaperaccess.com/full/724708.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border:solid #4644a6;
+    width: 25%;
+    height: 75%;
+    margin-top: 100px;
+  margin-left: 33%;
+backdrop-filter: blur(3px);
+border-radius: 30px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+   }
+
+.input-box {
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    background: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    columns: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background:transparent;
+    
+}
+
+input[type="submit"] {
+    background: transparent;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.social a.facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+.social a.google {
+    background-color: #DD4B39;
+    color: white;
+}
+
+.social a i {
+    margin-right: 5px;
+}
+
+span {
+    font-size: 12px;
+    margin: 20px 
+}
+h5
+{
+    color: white;
+    font-size:15px;
+}
+.btn
+{
+    background: transparent;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+}
+.hh
+{
+    margin-left: 63px;
+}
+::placeholder{
+    color:rgb(251, 235, 174);
+    font-size: 16px;
+    margin-left: 30px;
+}   
+span
+{
+    color: white;
+}
